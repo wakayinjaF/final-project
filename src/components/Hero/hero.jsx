@@ -18,8 +18,8 @@ export const hero = () => {
                </div>
 
                <dev className="flexColStart hero-description">
-                    <span>Find a variety of hostels that suit you very easily</span>
-                    <span>Forget all difficulties in finding a residence for you at campus</span>
+                    <span className='secondaryText'>Find a variety of hostels that suit you very easily</span>
+                    <span className='secondaryText'>Forget all difficulties in finding a residence for you at campus</span>
                </dev>
 
                 <div className="flexCenter search-bar">
@@ -29,12 +29,28 @@ export const hero = () => {
                 </div>
 
                 <div className="flexCenter stats">
-                    <div className="flexColStart stat">
+                    <div className="flexColCenter stat">
                         <span>
                             <CountUp start={8800} end={9000} duration={4}/>
+                            <span>+</span>
                         </span>
-                        <span>+</span>
-                        <span>Premium Products</span>
+                        <span className='secondaryText'>Premium Products</span>
+                    </div> 
+
+                    <div className="flexColCenter stat">
+                        <span>
+                            <CountUp start={1950} end={2000} duration={4}/>
+                            <span>+</span>
+                        </span>
+                        <span className='secondaryText'>happy Customers</span>
+                    </div>
+
+                    <div className="flexColCenter stat">
+                        <span>
+                            <CountUp  end={28}/>
+                            <span>+</span>
+                        </span>
+                        <span className='secondaryText' >Award Winnigs</span>
                     </div>
                 </div>
             </div>

@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Olympia",
+        "price": "47,043",
+        "detail": "Makerere kikoni, Nyumbani street, kampala-Uganda",
+        "image": "./1.jpg"
+    },
+    {
+        "name": "Jessam",
+        "price": "66,353",
+        "detail": "Makerere kikoni, Nyumbani street, kampala-Uganda",
+        "image": "./2.jpg"
+    },
+    {
+        "name": "New nana",
+        "price": "35,853",
+        "detail": "Makerere kikoni, Nyumbani street, kampala-Uganda",
+        "image": "./3.jpg"
+    },
+    {
+        "name": "Aryan",
+        "price": "47,043",
+        "detail": "Makerere kikoni, Nyumbani street, kampala-Uganda",
+        "image": "./4.jpg"
+    },
+    {
+        "name": "Nakiyinji",
+        "price": "66,353",
+        "detail": "Makerere kikoni, Nyumbani street, kampala-Uganda",
+        "image": "./5.jpg"
+    },
+    {
+        "name": "Akwata",
+        "price": "35,853",
+        "detail": "Makerere kikoni, Nyumbani street, kampala-Uganda",
+        "image": "./6.jpg"
+    }
+]
