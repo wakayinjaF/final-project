@@ -18,7 +18,7 @@
      overflow: hidden;
      margin-bottom: 20px;
 }
-.accordionItem{
+.accordionItem .expanded{
      box-shadow: var(--shadow);
      border-radius: 6px;
 
