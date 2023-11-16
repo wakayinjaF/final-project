@@ -6,7 +6,7 @@
   --orange: linear-gradient(270deg, #ffb978 0%, #ff922d);
   --blue: #4066ff;
   --lihtblue: #eeeeff;
-  --shadow: 0px 23px 21px -8px rgba(136)
+  --shadow: 0px 23px 21px -8px rgba(136);
 }
 *{
   margin: 0;

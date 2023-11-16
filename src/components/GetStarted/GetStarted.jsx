@@ -11,6 +11,9 @@ const GetStarted = () => {
                     <br />
                     Find your residence soon 
                 </span>
+                <button className="button">
+                    <a href="mailto:wakayinjafrank.com">Get Started</a>
+                </button>
             </div>
         </div>
     </section>
