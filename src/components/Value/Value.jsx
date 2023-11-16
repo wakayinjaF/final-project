@@ -11,6 +11,7 @@ import "react-accessible-accordion/dist/fancy-example.css";
 import {MdOutlineArrowDropDown} from 'react-icons/md'
 import './Value.css'
 import data from '../../utils/accordion';
+
 const Value = () => {
   return (
     <section className="v-wrapper">
@@ -37,7 +38,7 @@ const Value = () => {
                  preExpanded={[0]}
                  >
                     {data.map((item, i)=> {  
-                              const [className, setClassName] = useState(null)
+                              const [className, setClassName] = useState(null);
                             return(
                                 <AccordionItem className={`accordionItem ${className}`} key={i} uuid={i}>
                                     <AccordionItemHeading>
@@ -74,3 +75,4 @@ const Value = () => {
 }
 
 export default Value
+

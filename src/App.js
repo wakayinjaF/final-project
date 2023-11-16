@@ -5,12 +5,14 @@ import Companies from "./components/Companies/Companies";
 import Residencies from "./components/Residencies/Residencies";
 import Value from "./components/Value/Value";
 import Contact from "./components/Contact/Contact";
+import Routes from "./Routes/Routes";
 function App() {
   return (
     <div className="App">
       <div>
         <div className="white-gradient" />
         <Header />
+        <Routes />
         <Hero />
       </div>
       <Companies />
