@@ -6,19 +6,21 @@ import Residencies from "./components/Residencies/Residencies";
 import Value from "./components/Value/Value";
 import Contact from "./components/Contact/Contact";
 import Routes from "./Routes/Routes";
+import GetStarted from "./components/GetStarted/GetStarted";
 function App() {
   return (
     <div className="App">
       <div>
         <div className="white-gradient" />
         <Header />
-        <Routes />
+        {/* <Routes /> */}
         <Hero />
       </div>
       <Companies />
       <Residencies />
       <Value />
       <Contact />
+      <GetStarted />
     </div>
   );
 }
