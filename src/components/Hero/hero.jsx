@@ -2,6 +2,7 @@ import React from 'react'
 import "./hero.css"
 import { HiLocationMarker } from 'react-icons/hi';
 import CountUp from 'react-countup';
+import { motion } from 'framer-motion'
 export const hero = () => {
   return (
     <section className="hero-wrapper">
@@ -10,13 +11,20 @@ export const hero = () => {
             <div className="flexColStart hero-left">
                <div className="hero-title">
                 <div className="orange-circle" />
-                    <h1>
+                    <motion.h1
+                    initial={{y: "2rem", opacity: 0}}
+                    animate={{y: 0, opacity: 1}}
+                    transition={{
+                        duration: 2,
+                        type:"spring"
+                    }}
+                    >
                         Discover <br />
                         More suitable <br />
                         Hostels
                     </h1>
                </div>
-
+ 
                <dev className="flexColStart hero-description">
                     <span className='secondaryText'>Find a variety of hostels that suit you very easily</span>
                     <span className='secondaryText'>Forget all difficulties in finding a residence for you at campus</span>
