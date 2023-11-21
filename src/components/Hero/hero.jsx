@@ -22,7 +22,7 @@ export const hero = () => {
                         Discover <br />
                         More suitable <br />
                         Hostels
-                    </h1>
+                    </motion.h1>
                </div>
  
                <dev className="flexColStart hero-description">
