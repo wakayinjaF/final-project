@@ -1,22 +1,23 @@
-import React from 'react';
-import { Navigate,Routes,Route } from 'react-router-dom';
-import App from '../App';
-import Signup from '../components/Signup/Signup';
-import Login from '../components/Login/Login';
-
+import React from "react";
+import { Routes, Route } from "react-router-dom";
+import Signup from "../components/Signup/Signup";
+import Login from "../components/Login/Login";
+import { BrowserRouter } from "react-router-dom";
+import TestComponent from "../components/TestComponent";
+import HomePage from "../views/HomePage";
 
 const MyRoutes = () => {
-  const user = localStorage.getItem("token")
+  const user = localStorage.getItem("token");
   return (
-    <Routes>
-      {user &&<Route path='/' exact element={<App />} />}
-        {/* <Route path="/" exact element={<App />} /> */}
-        <Route path="/Signup" exact element={<Signup />} />
-        <Route path="/Login" exact element={<Login />} />
-        <Route path='/' exact element={<Navigate replace to="/Login" />} />
-    </Routes>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" exact element={<HomePage />} />
+        <Route path="/signup" element={<Signup />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/test" element={<TestComponent />} />
+      </Routes>
+    </BrowserRouter>
   );
 };
 
-export default Routes;
-  
+export default MyRoutes;
