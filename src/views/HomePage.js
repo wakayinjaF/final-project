@@ -24,8 +24,6 @@ const HomePage = () => {
         <GetStarted />
         <Footer />
       </div>
-      <Header />
-      <Hero />
     </div>
   );
 };
