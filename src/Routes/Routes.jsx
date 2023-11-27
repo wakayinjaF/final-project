@@ -5,7 +5,7 @@ import Login from "../components/Login/Login";
 import { BrowserRouter } from "react-router-dom";
 import TestComponent from "../components/TestComponent";
 import HomePage from "../views/HomePage";
-import Residencies from "../components/Residencies/Residencies";
+// import Residencies from "../components/Residencies/Residencies";
 
 const MyRoutes = () => {
   const user = localStorage.getItem("token");
@@ -16,7 +16,7 @@ const MyRoutes = () => {
         <Route path="/signup" element={<Signup />} />
         <Route path="/login" element={<Login />} />
         <Route path="/test" element={<TestComponent />} />
-        <Route path="/residencies" Component={Residencies } />
+        {/* <Route path="/residencies" Component={<Residencies />} /> */}
       </Routes>
     </BrowserRouter>
   );
