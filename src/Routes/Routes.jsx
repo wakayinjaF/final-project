@@ -16,7 +16,7 @@ const MyRoutes = () => {
         <Route path="/signup" element={<Signup />} />
         <Route path="/login" element={<Login />} />
         <Route path="/test" element={<TestComponent />} />
-        {/* <Route path="/residencies" Component={<Residencies />} /> */}
+        <Route path="/residencies" Component={Residencies } />
       </Routes>
     </BrowserRouter>
   );
