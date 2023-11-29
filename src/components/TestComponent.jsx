@@ -1,7 +1,8 @@
 import React from "react";
 
 function TestComponent() {
-  return <div>TestComponent</div>;
+  // return <div id="testComponent">TestComponent</div>;
+  return <section id="testComponent">TestComponent</section>;
 }
 
 export default TestComponent;
